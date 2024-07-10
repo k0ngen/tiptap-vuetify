@@ -3,161 +3,142 @@ export default {
     Blockquote: {
       buttons: {
         blockquote: {
-          tooltip: 'Block quote'
+          tooltip: 'Lainaus'
         }
       }
     },
     Bold: {
       buttons: {
         bold: {
-          tooltip: 'Bold'
+          tooltip: 'Lihavoitu'
         }
       }
     },
     BulletList: {
       buttons: {
         bulletList: {
-          tooltip: 'Bulleted list'
+          tooltip: 'Luettelomerkitty luettelo'
         }
       }
     },
     Code: {
       buttons: {
         code: {
-          tooltip: 'Code'
+          tooltip: 'Koodi'
         }
       }
     },
     CodeBlock: {
       buttons: {
         codeBlock: {
-          tooltip: 'Code block'
+          tooltip: 'Koodilohko'
         }
       }
     },
     History: {
       buttons: {
         undo: {
-          tooltip: 'Undo'
+          tooltip: 'Kumoa'
         },
         redo: {
-          tooltip: 'Redo'
+          tooltip: 'Tee uudelleen'
         }
       }
     },
     HorizontalRule: {
       buttons: {
         horizontalRule: {
-          tooltip: 'Horizontal line'
+          tooltip: 'Vaakaviiva'
         }
       }
     },
     Italic: {
       buttons: {
         italic: {
-          tooltip: 'Italic'
+          tooltip: 'Kursivoitu'
         }
       }
     },
     OrderedList: {
       buttons: {
         orderedList: {
-          tooltip: 'Ordered list'
+          tooltip: 'Numeroitu luettelo'
         }
       }
     },
     Paragraph: {
       buttons: {
         paragraph: {
-          tooltip: 'Paragraph'
+          tooltip: 'Kappale'
         }
       }
     },
     Strike: {
       buttons: {
         strike: {
-          tooltip: 'Strike'
+          tooltip: 'Yliviivattu'
         }
       }
     },
     Underline: {
       buttons: {
         underline: {
-          tooltip: 'Underline'
+          tooltip: 'Alleviivattu'
         }
       }
     },
     Heading: {
       buttons: {
         heading: {
-          tooltip: ({ level }) => level + ' level header'
+          tooltip: ({ level }) => 'Otsikko ' + level
         }
       }
     },
     Link: {
       buttons: {
         isActive: {
-          tooltip: 'Change Link'
+          tooltip: 'Muokkaa linkkiä'
         },
         notActive: {
-          tooltip: 'Add Link'
+          tooltip: 'Luo linkki'
         }
       },
       window: {
-        title: 'Link control',
+        title: 'Linkin muokkaus',
         form: {
           hrefLabel: 'URL'
         },
         buttons: {
-          close: 'Close',
-          remove: 'Remove',
-          apply: 'Apply'
+          close: 'Sulje',
+          remove: 'Poista',
+          apply: 'Käytä'
         }
       }
     },
     Image: {
       buttons: {
-        tooltip: 'Image'
+        tooltip: 'Kuva'
       },
       window: {
-        title: 'Add Image',
+        title: 'Lisää kuva',
         form: {
-          sourceLink: 'Image URL',
-          altText: 'Alternative Text',
-          addImage: 'Add Image'
+          sourceLink: 'Kuvan URL',
+          altText: 'Kuvateksti',
+          addImage: 'Lisää kuva'
         },
         imageUpload: {
-          instruction: 'Choose a file(s) or drag it here.'
+          instruction: 'Valitse teidosto(t) tai raahaa ne tähän laatikkoon.'
         },
         buttons: {
-          close: 'Close',
-          apply: 'Apply'
-        }
-      }
-    },
-    Table: {
-      buttons: {
-        table: {
-          tooltip: 'Table'
-        }
-      },
-      window: {
-        title: 'Tables',
-        form: {
-          rowsCount: 'Rows count',
-          colsCount: 'Cols count',
-          withHeaderRow: 'With header row'
-        },
-        buttons: {
-          close: 'Close',
-          apply: 'Apply'
+          close: 'Sulje',
+          apply: 'Käytä'
         }
       }
     },
     TodoList: {
       buttons: {
         todoList: {
-          tooltip: 'To Do List'
+          tooltip: 'Tehtävälista'
         }
       }
     }

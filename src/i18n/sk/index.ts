@@ -3,161 +3,142 @@ export default {
     Blockquote: {
       buttons: {
         blockquote: {
-          tooltip: 'Block quote'
+          tooltip: 'Bloková citácia'
         }
       }
     },
     Bold: {
       buttons: {
         bold: {
-          tooltip: 'Bold'
+          tooltip: 'Tučné'
         }
       }
     },
     BulletList: {
       buttons: {
         bulletList: {
-          tooltip: 'Bulleted list'
+          tooltip: 'Zoznam s odrážkami'
         }
       }
     },
     Code: {
       buttons: {
         code: {
-          tooltip: 'Code'
+          tooltip: 'Kód'
         }
       }
     },
     CodeBlock: {
       buttons: {
         codeBlock: {
-          tooltip: 'Code block'
+          tooltip: 'Blok kódu'
         }
       }
     },
     History: {
       buttons: {
         undo: {
-          tooltip: 'Undo'
+          tooltip: 'Späť'
         },
         redo: {
-          tooltip: 'Redo'
+          tooltip: 'Znova'
         }
       }
     },
     HorizontalRule: {
       buttons: {
         horizontalRule: {
-          tooltip: 'Horizontal line'
+          tooltip: 'Horizontálny oddeľovač'
         }
       }
     },
     Italic: {
       buttons: {
         italic: {
-          tooltip: 'Italic'
+          tooltip: 'Kurzíva'
         }
       }
     },
     OrderedList: {
       buttons: {
         orderedList: {
-          tooltip: 'Ordered list'
+          tooltip: 'Číslovaný zoznam'
         }
       }
     },
     Paragraph: {
       buttons: {
         paragraph: {
-          tooltip: 'Paragraph'
+          tooltip: 'Odstavec'
         }
       }
     },
     Strike: {
       buttons: {
         strike: {
-          tooltip: 'Strike'
+          tooltip: 'Preškrtnuté'
         }
       }
     },
     Underline: {
       buttons: {
         underline: {
-          tooltip: 'Underline'
+          tooltip: 'Podčiarknuté'
         }
       }
     },
     Heading: {
       buttons: {
         heading: {
-          tooltip: ({ level }) => level + ' level header'
+          tooltip: ({ level }) => level + '. úroveň nadpisu'
         }
       }
     },
     Link: {
       buttons: {
         isActive: {
-          tooltip: 'Change Link'
+          tooltip: 'Zmeniť odkaz'
         },
         notActive: {
-          tooltip: 'Add Link'
+          tooltip: 'Pridať odkaz'
         }
       },
       window: {
-        title: 'Link control',
+        title: 'Správa odkazu',
         form: {
-          hrefLabel: 'URL'
+          hrefLabel: 'Odkaz'
         },
         buttons: {
-          close: 'Close',
-          remove: 'Remove',
-          apply: 'Apply'
+          close: 'Zavrieť',
+          remove: 'Odstrániť',
+          apply: 'Použiť'
         }
       }
     },
     Image: {
       buttons: {
-        tooltip: 'Image'
+        tooltip: 'Obrázok'
       },
       window: {
-        title: 'Add Image',
+        title: 'Pridať obrázok',
         form: {
-          sourceLink: 'Image URL',
-          altText: 'Alternative Text',
-          addImage: 'Add Image'
+          sourceLink: 'Adresa obrázka',
+          altText: 'Alternatívny text',
+          addImage: 'Pridať obrázok'
         },
         imageUpload: {
-          instruction: 'Choose a file(s) or drag it here.'
+          instruction: 'Vyberte súbor(y) alebo ho(ich) potiahnite sem.'
         },
         buttons: {
-          close: 'Close',
-          apply: 'Apply'
-        }
-      }
-    },
-    Table: {
-      buttons: {
-        table: {
-          tooltip: 'Table'
-        }
-      },
-      window: {
-        title: 'Tables',
-        form: {
-          rowsCount: 'Rows count',
-          colsCount: 'Cols count',
-          withHeaderRow: 'With header row'
-        },
-        buttons: {
-          close: 'Close',
-          apply: 'Apply'
+          close: 'Zavrieť',
+          apply: 'Použiť'
         }
       }
     },
     TodoList: {
       buttons: {
         todoList: {
-          tooltip: 'To Do List'
+          tooltip: 'Zoznam TODO'
         }
       }
     }
